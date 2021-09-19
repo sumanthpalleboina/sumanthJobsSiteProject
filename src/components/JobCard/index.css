@@ -1,0 +1,128 @@
+.jobCard-link {
+  text-decoration: none;
+}
+.job-card {
+  background-color: #272727;
+  height: 40%;
+  max-height: 510px;
+  margin-bottom: 20px;
+  padding: 18px;
+  border-radius: 14px;
+}
+@media screen and (max-width: 768px) {
+  .job-card {
+    background-color: #272727;
+    height: 380px;
+    min-height: 578px;
+    margin-bottom: 20px;
+    padding: 18px;
+    border-radius: 14px;
+    min-width: 350px;
+  }
+}
+.company-with-job-titleAndRating-container {
+  display: flex;
+  align-items: center;
+}
+.title-rating-container {
+  margin-left: 19px;
+}
+.company-logo {
+  width: 100px;
+  height: 100px;
+}
+.title {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.star-icon {
+  color: yellow;
+  margin-right: 10px;
+}
+.rating {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/*Location-employment-type-salary-container*/
+.location-employment-salary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-employment-container {
+  display: flex;
+  align-items: center;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 22px;
+}
+.employment-container {
+  display: flex;
+  align-items: center;
+}
+.location-icon {
+  color: white;
+  font-size: 20px;
+  margin-right: 3px;
+}
+.employment-icon {
+  color: white;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.location {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 17px;
+}
+.employment-type {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 17px;
+}
+.salary {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 19px;
+}
+.hr-line {
+  background-color: white;
+}
+
+/*job-description-styling*/
+.description-head {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+.job-summary {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+}
+@media screen and (max-width: 768px) {
+  .job-summary {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}

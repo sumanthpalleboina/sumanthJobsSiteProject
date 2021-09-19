@@ -1,0 +1,35 @@
+.not-found-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: 500;
+  width: 400px;
+  text-align: center;
+}
+.para-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .no-found-img {
+    width: 450px;
+    height: 450px;
+  }
+}
